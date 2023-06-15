@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - C program that prints a line to the standard error
- * return 1 (Success)
+ * main - Entry Point
+ *
+ * Return: Always 0 (Succes)
  */
 int main(void)
 {
-write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+Write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
 sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19"));
 return (1);
 }
