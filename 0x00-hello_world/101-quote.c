@@ -2,7 +2,6 @@
 #include <unistd.h>
 /**
  * main - Entry Point
- *
  * Return: Always 1 (Succes)
  */
 int main(void)
