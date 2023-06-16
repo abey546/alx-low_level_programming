@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print last digit of randomly  number show if is < 5, > 6, or 0
+ * main - print last digit of randomly  number show if is \< 5, \> 6, or 0
  *
  * Return: Always 0 (success)
  */
