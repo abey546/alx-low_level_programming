@@ -12,20 +12,21 @@ hash_table_t *hash_table_create(unsigned long int size);
 {
 	unsigned long int i;
 	hash_table_t *hash_table;
-	hash_table = (hash_table_t*)malloc(sizeof(hash_table_t));
 
-	if(hash_table == NULL)
+	hash_table = (hash_table_t *)malloc(sizeof(hash_table_t));
+
+	if (hash_table == NULL)
 	{
 		retrun NULL;
 	}
-	hash_table -> size = size;
-	if (hash_table -> array == NULL)
+	hash_table->size = size;
+	if (hash_table->array == NULL)
 	{
 		free(hash_table);
-		return NULL;
+		return (NULL);
 	}
 	for (i = 0; i < size; i++)
 	{
-		hash_table -> array[i] = NULL;
+		hash_table->array[i] = NULL;
 	}
-	return hash_table;
+	return (hash_table);
